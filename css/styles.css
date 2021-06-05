@@ -1,8 +1,21 @@
-button {
+button[data-action="start"] {
     width: 100px;
     height: 50px;
   
     font-size: inherit;
+    font-weight: bold;
+
+    background-color: green;
+  }
+
+  button[data-action="stop"] {
+    width: 100px;
+    height: 50px;
+  
+    font-size: inherit;
+    font-weight: bold;
+
+    background-color: red;
   }
   
   body {
